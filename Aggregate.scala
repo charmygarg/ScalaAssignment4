@@ -1,8 +1,8 @@
 
 object Aggregate extends App
 {
-	val lst1 = List(1,"a")
-	val lst2 = List(2,"b")
-	val lst = List(lst1,lst2)
+	val lst1 = List(1,2,3)
+	val lst2 = List("a","b","c")
+	val lst = lst1 zip lst2
 	println(lst)
 }
